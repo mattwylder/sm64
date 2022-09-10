@@ -275,10 +275,10 @@ Shhh! Please walk\n\
 quietly in the hallway!"))
 
 DEFINE_DIALOG(DIALOG_020, 1, 6, 95, 150, _("\
-Dear Mario:\n\
+Dear Chris Fillak:\n\
 Please come to the\n\
-castle. I've baked\n\
-a cake for you.\n\
+castle. I've got some\n\
+Comintern books for you.\n\
 Yours truly--\n\
 Princess Toadstool"))
 
