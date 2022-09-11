@@ -431,6 +431,11 @@ s32 update_decelerating_speed(struct MarioState *m) {
     return stopped;
 }
 
+/**
+ *  Updates Mario's Walking speed and adjusts his forward angle.
+ * 
+ *  @parameter m: a `MarioState` struct. Properties forwardVel, intendedYaw and faceAngle are mutated.
+ */
 void update_walking_speed(struct MarioState *m) {
     f32 maxTargetSpeed;
     f32 targetSpeed;
