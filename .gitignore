@@ -17,11 +17,12 @@
 *.la
 *.lo
 
-# Shared objects (inc. Windows DLLs)
+# Shared objects (inc. Windows DLLs and MacOS .DS_Store)
 *.dll
 *.so
 *.so.*
 *.dylib
+.DS_Store
 
 # Executables
 *.exe
